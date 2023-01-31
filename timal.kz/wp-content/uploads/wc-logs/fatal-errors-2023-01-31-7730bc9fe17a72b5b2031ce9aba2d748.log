@@ -1,0 +1,102 @@
+2023-01-31T04:51:42+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OSPanel\domains\site.kz\wp-content\plugins\jetpack\jetpack_vendor\automattic\jetpack-sync\src\class-data-settings.php на строке 417
+
+2023-01-31T04:51:43+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OSPanel\domains\site.kz\wp-includes\widgets\class-wp-widget-links.php на строке 189
+
+2023-01-31T08:03:24+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-includes/widgets/class-wp-widget-pages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-includes/default-widgets.php:11
+Stack trace:
+#0 /var/www/html/wp-includes/functions.php(5239): require_once()
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): wp_maybe_load_widgets('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-settings.php(480): do_action('plugins_loaded')
+#5 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}
+  thrown в /var/www/html/wp-includes/default-widgets.php на строке 11
+
+2023-01-31T08:03:24+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-includes/widgets/class-wp-widget-pages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-includes/default-widgets.php:11
+Stack trace:
+#0 /var/www/html/wp-includes/functions.php(5239): require_once()
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): wp_maybe_load_widgets('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-settings.php(480): do_action('plugins_loaded')
+#5 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}
+  thrown в /var/www/html/wp-includes/default-widgets.php на строке 11
+
+2023-01-31T08:03:42+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-includes/widgets/class-wp-widget-pages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-includes/default-widgets.php:11
+Stack trace:
+#0 /var/www/html/wp-includes/functions.php(5239): require_once()
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): wp_maybe_load_widgets('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-settings.php(480): do_action('plugins_loaded')
+#5 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}
+  thrown в /var/www/html/wp-includes/default-widgets.php на строке 11
+
+2023-01-31T08:03:44+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-includes/widgets/class-wp-widget-pages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-includes/default-widgets.php:11
+Stack trace:
+#0 /var/www/html/wp-includes/functions.php(5239): require_once()
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): wp_maybe_load_widgets('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-settings.php(480): do_action('plugins_loaded')
+#5 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}
+  thrown в /var/www/html/wp-includes/default-widgets.php на строке 11
+
+2023-01-31T08:03:44+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-includes/widgets/class-wp-widget-pages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-includes/default-widgets.php:11
+Stack trace:
+#0 /var/www/html/wp-includes/functions.php(5239): require_once()
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): wp_maybe_load_widgets('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-settings.php(480): do_action('plugins_loaded')
+#5 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}
+  thrown в /var/www/html/wp-includes/default-widgets.php на строке 11
+
+2023-01-31T08:03:44+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-includes/widgets/class-wp-widget-pages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-includes/default-widgets.php:11
+Stack trace:
+#0 /var/www/html/wp-includes/functions.php(5239): require_once()
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): wp_maybe_load_widgets('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-settings.php(480): do_action('plugins_loaded')
+#5 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}
+  thrown в /var/www/html/wp-includes/default-widgets.php на строке 11
+
+2023-01-31T08:03:44+00:00 CRITICAL Uncaught Error: Failed opening required '/var/www/html/wp-includes/widgets/class-wp-widget-pages.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-includes/default-widgets.php:11
+Stack trace:
+#0 /var/www/html/wp-includes/functions.php(5239): require_once()
+#1 /var/www/html/wp-includes/class-wp-hook.php(308): wp_maybe_load_widgets('')
+#2 /var/www/html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/html/wp-settings.php(480): do_action('plugins_loaded')
+#5 /var/www/html/wp-config.php(96): require_once('/var/www/html/w...')
+#6 /var/www/html/wp-load.php(50): require_once('/var/www/html/w...')
+#7 /var/www/html/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#8 /var/www/html/index.php(17): require('/var/www/html/w...')
+#9 {main}
+  thrown в /var/www/html/wp-includes/default-widgets.php на строке 11
+

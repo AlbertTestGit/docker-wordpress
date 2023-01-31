@@ -1,0 +1,41 @@
+version: '3.1'
+
+services:
+
+  wordpress:
+    container_name: wordpress
+    image: wordpress
+    restart: always
+    ports:
+      - 80:80
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: billy
+      WORDPRESS_DB_PASSWORD: herrington
+      WORDPRESS_DB_NAME: worpdress
+    volumes:
+      - ./timal.kz:/var/www/html
+    depends_on: 
+      - db
+
+  db:
+    container_name: mysql
+    image: mysql:8.0.32
+    restart: always
+    environment:
+      MYSQL_DATABASE: worpdress
+      MYSQL_USER: billy
+      MYSQL_PASSWORD: herrington
+      MYSQL_RANDOM_ROOT_PASSWORD: '1'
+    volumes:
+      - db:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8080:80
+
+volumes:
+  wordpress:
+  db:
